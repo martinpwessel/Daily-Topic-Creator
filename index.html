@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tägliches Gesprächsthema 💕</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>💕 Unser tägliches Thema</h1>
+    <p class="date" id="date"></p>
+  </header>
+
+  <main>
+    <div class="card" id="card">
+      <div class="category" id="category">Kategorie</div>
+      <p class="question" id="question">Drücke den Button, um ein Thema zu ziehen!</p>
+    </div>
+
+    <div class="buttons">
+      <button id="drawBtn" class="primary">🎲 Heutiges Thema ziehen</button>
+      <button id="newBtn" class="secondary" style="display:none;">🔄 Neues Thema</button>
+    </div>
+
+    <div class="info" id="info"></div>
+  </main>
+
+  <footer>
+    <p>Mit ❤️ für tiefere Gespräche</p>
+  </footer>
+</div>
+
+<script src="topics.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
